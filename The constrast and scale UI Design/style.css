@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(126, 125, 123);
+}
+
+/*Shared style for section*/
+.section {
+  background-color: rgb(98, 128, 184);
+  display: flex;
+}
+
+/*Style for images */
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+#main-content {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section {
+  width: 70%;
+  justify-content: space-evenly;
+  margin-bottom: 1.25rem;
+  padding: 1rem;
+  border-radius: 0.8rem;
+  transition: transform 0.25s ease-in-out;
+}
+
+.section:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.content {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+p:not(:first-of-type) {
+  font-size: 1.2 rem;
+}
+
+.section .content h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.8rem;
+}
+
+/* .section .content {
+  margin-left: 1.25rem;
+}
+
+.section .content p:first-of-type {
+  padding-bottom: 0.25rem;
+}
+
+.section .content h3 {
+  padding-bottom: 1rem;
+} */
