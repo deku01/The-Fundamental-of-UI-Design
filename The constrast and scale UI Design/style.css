@@ -59,6 +59,7 @@ p:not(:first-of-type) {
   margin-bottom: 0.8rem;
 }
 
+/*Alternative way using padding and margin*/
 /* .section .content {
   margin-left: 1.25rem;
 }
